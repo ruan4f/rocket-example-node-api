@@ -11,5 +11,7 @@ class CreateChallengeSubmission {
       studentId,
       challengeId,
     });
+
+    return submission;
   }
 }
