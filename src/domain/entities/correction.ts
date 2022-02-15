@@ -6,7 +6,7 @@ type CorrectionProps = {
   createdAt: number;
 }
 
-class Correction  extends Entity<CorrectionProps> {
+export class Correction  extends Entity<CorrectionProps> {
   private constructor(props: CorrectionProps, id?: string) {
     super(props, id);
   }
