@@ -183,10 +183,10 @@ export default {
             decorators: true,
           },
           target: 'es2017',
-          keepClassName: true,
+          keepClassNames: true,
           transform: {
             legacyDecorator: true,
-            decoratorMetada: true,
+            decoratorMetadata: true,
           },
         }, 
         module: {

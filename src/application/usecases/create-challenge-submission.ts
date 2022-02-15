@@ -5,8 +5,8 @@ type CreateChallengeSubmissionProps = {
   challengeId: string;
 }
 
-class CreateChallengeSubmission {
-  execute({ studentId, challengeId }: CreateChallengeSubmissionProps) {
+export class CreateChallengeSubmission {
+  async execute({ studentId, challengeId }: CreateChallengeSubmissionProps) {
     const submission = Submission.create({
       studentId,
       challengeId,
